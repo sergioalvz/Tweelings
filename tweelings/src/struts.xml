@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="tweeligns" extends="struts-default">
+
+		<action name="Home">
+			<result type="chain">ShowHomePageAction</result>
+		</action>
+
+		<action name="ShowHomePageAction"
+			class="com.salvarezsuar.tweelings.presentation.ShowHomePageAction">
+			<result>/WEB-INF/jsp/home.jsp</result>
+		</action>
+
+		<action name="ShowResults">
+			<result type="chain">ShowResultsAction</result>
+		</action>
+
+		<action name="ShowResultsAction"
+			class="com.salvarezsuar.tweelings.presentation.ShowResultsAction">
+			<result>/WEB-INF/jsp/result.jsp</result>
+		</action>
+
+	</package>
+</struts>

@@ -1,0 +1,109 @@
+@CHARSET "UTF-8";
+
+body {
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+header hgroup {
+	text-align: center;
+	line-height: 0.7em;
+}
+
+header {
+	margin-bottom: 5em;
+	border-bottom: 0.15em solid #00acee;
+}
+
+header hgroup h1 {
+	font-size: 3em;
+}
+
+header hgroup h2 {
+	font-size: 1.3em;
+	font-weight: normal;
+}
+
+header a:LINK {
+	color: #00acee;
+	text-decoration: none;
+}
+
+header a:VISITED {
+	color: #00acee;
+	text-decoration: none;
+}
+
+section.presentation {
+	border-radius: 0.25em;
+	background-color: #E5F2FF;
+	box-shadow: 2px 2px 1px #C4C4C4;
+	padding: 2% 2% 2% 3%;
+}
+
+/* *********** ACCORDION **************************************** */
+#results {
+	margin-top: 2em;
+}
+
+#results a:LINK {
+	color: #000;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#results a:VISITED {
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#results a:HOVER {
+	color: #000;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#results ul {
+	padding-left: 0em;
+}
+
+#results ul li {
+	list-style: none;
+}
+
+.ui-accordion-header {
+	background-color: #00acee;
+	padding: 0.5em;
+	border-radius: 0.25em;
+	color: white;
+}
+
+.ui-state-hover {
+	background-color: #0c4da2;
+	cursor: hand;
+	cursor: pointer;
+}
+
+.ui-state-active {
+	background-color: #0c4da2;
+}
+
+.ui-accordion-content {
+	background-color: #E5F2FF;
+	padding: 0.5em;
+	border-radius: 0.25em;
+}
+
+/* ************************************************************** */
+
+#chart_div {
+	margin-left: -3em;
+}
+
+footer {
+	font-size: 0.8em;
+	line-height: 0.5em;
+	border-top: 0.2em solid #00acee;
+	margin-top: 5em;
+}
