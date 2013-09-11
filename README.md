@@ -1,6 +1,6 @@
 # Tweelings
 
-**Tweelings** is a web project developed by Sergio Álvarez Suárez as part of his Master in Web Engineering at University of Oviedo.
+**Tweelings** is a web project developed by Sergio Álvarez Suárez as part of his final assignment for the subject *Semantic Web* from the Master in Web Engineering @ University of Oviedo.
 
 ## Motivation
 
